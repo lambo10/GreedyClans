@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb87e8de48a4d01aab61ab9ea3e5a8d, type: 3}
+  m_Name: UnitCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: unit
+  category:
+  - name: Griffin
+    id: 0
+    levels:
+    - Description: They can fly above walls to deliver damage though modest in health
+        for their size.
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 150
+      UpRatio: 0
+      IdOfBigIcon: griffin
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Griffin
+      id: 0
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: cfe7922777b274b90bbe26de02700d42, type: 3}
+      damagePoints: 100
+      fireRate: 2
+      damageType: 0
+  - name: Grand Warden
+    id: 1
+    levels:
+    - Description: Powerful magicians that can summon earth shattering spikes with
+        their staff
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 1493
+      UpRatio: 0
+      IdOfBigIcon: grandWarden
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Grand Warden
+      id: 1
+      level: 1
+      unitType: 2
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: cc7e960adfc2543a99d47714985d40f1, type: 3}
+      damagePoints: 200
+      fireRate: 3
+      damageType: 0
+  - name: Golem
+    id: 2
+    levels:
+    - Description: The mighty Golem loves to soak up damage!. they destroy anything
+        in their path when attacking
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 1500
+      UpRatio: 0
+      IdOfBigIcon: golem
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Golem
+      id: 2
+      level: 1
+      unitType: 0
+      size: 2
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 039aa47a471ac43b3ab32ee83d1497a8, type: 3}
+      damagePoints: 1500
+      fireRate: 2
+      damageType: 0
+  - name: Goblin
+    id: 3
+    levels:
+    - Description: 'These pesky little creatures only have eyes for one thing: LOOT!
+        They are faster than a Spring Trap, and their hunger for resources is limitless. '
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 25
+      UpRatio: 0
+      IdOfBigIcon: goblin
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Goblin
+      id: 3
+      level: 1
+      unitType: 4
+      size: 2
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 0460112423ddd40759ea28514b4c70a2, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+  - name: Ghost
+    id: 4
+    levels:
+    - Description: They can pass through walls and other obstacles to deliver damage
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 50
+      UpRatio: 0
+      IdOfBigIcon: ghost
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Ghost
+      id: 4
+      level: 1
+      unitType: 0
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: ea38f27800904414ca0a27dfd3a9bbdc, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+  - name: Fairy
+    id: 5
+    levels:
+    - Description: This Tiny creatures could move fast and fly across walls to deliver
+        minimal damages
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 10
+      UpRatio: 0
+      IdOfBigIcon: fairy
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Fairy
+      id: 5
+      level: 1
+      unitType: 0
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 3076ed9c30ed048a0accdf7e84e38a20, type: 3}
+      damagePoints: 5
+      fireRate: 2
+      damageType: 0
+  - name: Ent
+    id: 6
+    levels:
+    - Description: 'Despite slow. These big guys may seem calm, but show them a catapult
+        or cannon and you''ll see their fury unleashed. '
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 1000
+      UpRatio: 0
+      IdOfBigIcon: ent
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Ent
+      id: 6
+      level: 1
+      unitType: 0
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: b07270e769043484e9845571038addcd, type: 3}
+      damagePoints: 30
+      fireRate: 2
+      damageType: 0
+  - name: dragon
+    id: 7
+    levels:
+    - Description: The might of the dragons are known throughout the land. They attack
+        from the skies and inflict maximum damage on the enemy from above
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 2600
+      UpRatio: 0
+      IdOfBigIcon: dragon
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: dragon
+      id: 7
+      level: 1
+      unitType: 0
+      size: 7
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: aafb04d391cf94b5ba80573bf7335fca, type: 3}
+      damagePoints: 300
+      fireRate: 2
+      damageType: 0
+  - name: Barbarian King
+    id: 8
+    levels:
+    - Description: He is a larger, stronger, more aggressive, more impressive, and
+        more powerful Barbarian
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 2020
+      UpRatio: 0
+      IdOfBigIcon: barbarianKing
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Barbarian King
+      id: 8
+      level: 1
+      unitType: 0
+      size: 3
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 6fe19ff2c64cb4f6ab71253a660bdffd, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+  - name: Baby Dragon
+    id: 9
+    levels:
+    - Description: The might of the dragons are known throughout the land. They attack
+        from the skies and inflict maximum damage on the enemy from above.
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 1900
+      UpRatio: 0
+      IdOfBigIcon: babyDragon
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Baby Dragon
+      id: 9
+      level: 1
+      unitType: 0
+      size: 4
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: c1d546bbc8f7d42189a427f98973e07b, type: 3}
+      damagePoints: 150
+      fireRate: 2
+      damageType: 0
+  - name: Archer Queen
+    id: 10
+    levels:
+    - Description: 'This graceful huntress is a master destructive force, though
+        modest in health. She snipes targets in her territory when defending. '
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 800
+      UpRatio: 0
+      IdOfBigIcon: archerQueen
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer Queen
+      id: 10
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 539d3054e0641407bb6a2b7e7b1b0c87, type: 3}
+      damagePoints: 194
+      fireRate: 2
+      damageType: 0
+  - name: Archer
+    id: 11
+    levels:
+    - Description: These sharpshooters like to keep their distance on the battlefield
+        and in life. Nothing makes them happier than single-mindedly taking down
+        their target
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 30
+      UpRatio: 0
+      IdOfBigIcon: archerLb
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Archer
+      id: 11
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 539d3054e0641407bb6a2b7e7b1b0c87, type: 3}
+      damagePoints: 7
+      fireRate: 2
+      damageType: 0
+  - name: Wizard
+    id: 12
+    levels:
+    - Description: 'The Wizard is a terrifying presence on the battlefield. He can
+        cast spells to inflict maximum damage '
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 50
+      UpRatio: 0
+      IdOfBigIcon: wizard
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Wizard
+      id: 12
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: b3293d59fd002481bbd24981ef0944e9, type: 3}
+      damagePoints: 50
+      fireRate: 2
+      damageType: 0
+  - name: Barbarian
+    id: 13
+    levels:
+    - Description: This fearless warrior relies on his bulging muscles and striking
+        tusk to wreak havoc in enemy villages. He attacks at short range.
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 55
+      UpRatio: 0
+      IdOfBigIcon: barbarian
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Barbarian
+      id: 13
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 3abd9bb12610546e989f07b48cb914da, type: 3}
+      damagePoints: 10
+      fireRate: 2
+      damageType: 0
+  - name: Peasant
+    id: 14
+    levels:
+    - Description: They are not soldiers but would fight to the end to keep their
+        lands and crops.
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 30
+      UpRatio: 0
+      IdOfBigIcon: peasant
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Peasant
+      id: 14
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: d12797edddda64621be6ad96afa9bdb6, type: 3}
+      damagePoints: 20
+      fireRate: 2
+      damageType: 0
+  - name: Troll
+    id: 15
+    levels:
+    - Description: This giant, monstrous being, are fast and very agressive
+      Currency: 1
+      Price: 1
+      TimeToBuild: 1
+      XpAward: 0
+      HP: 370
+      UpRatio: 0
+      IdOfBigIcon: troll
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: 
+      MaxCountOfThisItem: 0
+      name: Troll
+      id: 15
+      level: 1
+      unitType: 0
+      size: 1
+      priceToSpeedUpUpgrade: 10
+      asset: {fileID: 1000014061624702, guid: 4ac538c384f86489882d0e365aa0881f, type: 3}
+      damagePoints: 100
+      fireRate: 2
+      damageType: 0

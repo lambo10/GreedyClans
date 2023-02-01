@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f775916ab042508611f9ec0253b38d, type: 3}
+  m_Name: WeaponCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: weapon
+  category:
+  - name: Cannon
+    id: 0
+    levels:
+    - Description: Shoots down any enemy troops at all ranges
+      Currency: 1
+      Price: 1
+      TimeToBuild: 30
+      XpAward: 0
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: cannon
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: cannon_bw
+      MaxCountOfThisItem: 100
+      name: Cannon
+      id: 0
+      level: 1
+      asset: {fileID: 169316, guid: fe2b66d955cbf384b937b70c7d6fb0f5, type: 3}
+      damagePoints: 25
+      range: 50
+      fireRate: 3
+      damageType: 1
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+  - name: Archer Tower
+    id: 1
+    levels:
+    - Description: This are Towers filled with armor piercing arrows that can take
+        down enemy troops at all ranges
+      Currency: 1
+      Price: 1
+      TimeToBuild: 30
+      XpAward: 0
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: archerTower
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: archerTower_bw
+      MaxCountOfThisItem: 100
+      name: Archer Tower
+      id: 1
+      level: 1
+      asset: {fileID: 106100, guid: 0fe88ad97c037a2439b6174db725a957, type: 3}
+      damagePoints: 10
+      range: 60
+      fireRate: 3
+      damageType: 1
+      targetType: 3
+      preferredTarget: 0
+      damageBonus: 0
+  - name: Catapult
+    id: 2
+    levels:
+    - Description: Heavy Artilery that can take down enemy troops at long range
+      Currency: 1
+      Price: 1
+      TimeToBuild: 160
+      XpAward: 0
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: catapult
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: catapult_bw
+      MaxCountOfThisItem: 100
+      name: Catapult
+      id: 2
+      level: 1
+      asset: {fileID: 141472, guid: f6447ed9767d75c4faf03a959e920847, type: 3}
+      damagePoints: 100
+      range: 70
+      fireRate: 2
+      damageType: 0
+      targetType: 1
+      preferredTarget: 0
+      damageBonus: 0
+  - name: Drone
+    id: 3
+    levels:
+    - Description: Light Aircraft. that can move towards the enemy before they get
+        to your base.
+      Currency: 1
+      Price: 1
+      TimeToBuild: 180
+      XpAward: 0
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: drone
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: drone_bw
+      MaxCountOfThisItem: 100
+      name: Drone
+      id: 3
+      level: 1
+      asset: {fileID: 107526, guid: 7a923e398315f754ca682d27443391f1, type: 3}
+      damagePoints: 200
+      range: 80
+      fireRate: 4
+      damageType: 1
+      targetType: 3
+      preferredTarget: 0
+      damageBonus: 0

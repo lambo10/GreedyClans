@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1871346d246841f1a18077cd591838c0, type: 3}
+  m_Name: BuildingsCategory
+  m_EditorClassIdentifier: 
+  storeCategoryId: buildings
+  category:
+  - name: Toolhouse
+    id: 0
+    levels:
+    - Description: Builders live in Toolhouses. get more of them to get more builders
+        and build things faster
+      Currency: 1
+      Price: 25
+      TimeToBuild: 5
+      XpAward: 100
+      HP: 200
+      UpRatio: 0
+      IdOfBigIcon: buildersHut
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: buildersHut_black_and_white
+      MaxCountOfThisItem: 100
+      name: Toolhouse
+      id: 0
+      level: 1
+      asset: {fileID: 100000, guid: 91610bd28a6f24bab9e920b8e22c4914, type: 3}
+      structureType: Toolhouse
+      prodType: 0
+      prodPerHour: 0
+      storeType: 0
+      storeResource: 0
+      storeCap: 0
+      damagePoints: 0
+      fireRate: 0
+  - name: Army Camp
+    id: 1
+    levels:
+    - Description: 'Your troops are stationed in Army Camps. Build more camps to
+        muster a powerful army. Capacity: 2'
+      Currency: 1
+      Price: 100
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: armyCamySprite
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: armyCamp_black_and_white
+      MaxCountOfThisItem: 100
+      name: Army Camp
+      id: 1
+      level: 1
+      asset: {fileID: 154402, guid: 6a2bb23eda2a44429bb0343a50d5019b, type: 3}
+      structureType: ArmyCamp
+      prodType: 3
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 3
+      storeCap: 10
+      damagePoints: 0
+      fireRate: 0
+  - name: Mega Army Camp
+    id: 2
+    levels:
+    - Description: 'Your troops are stationed in Army Camps. Build more camps to
+        muster a powerful army. Capacity: 8'
+      Currency: 1
+      Price: 200
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: MegaarmyCamySprite
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: megaArmyCamp_black_and_white
+      MaxCountOfThisItem: 100
+      name: Mega Army Camp
+      id: 2
+      level: 1
+      asset: {fileID: 154402, guid: dd868955a162a45fc8ae803ff25e5200, type: 3}
+      structureType: MegaArmyCamp
+      prodType: 3
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 3
+      storeCap: 25
+      damagePoints: 0
+      fireRate: 0
+  - name: Barracks
+    id: 3
+    levels:
+    - Description: 'The Barracks allow you to train troops after battle to attack
+        your enemies. Capacity: 2'
+      Currency: 1
+      Price: 200
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: Barracks
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: barracks_black_and_white
+      MaxCountOfThisItem: 100
+      name: Barracks
+      id: 3
+      level: 1
+      asset: {fileID: 154402, guid: c27e269fa2bcc4f40aca037c2dab8d19, type: 3}
+      structureType: Barracks
+      prodType: 3
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 3
+      storeCap: 25
+      damagePoints: 0
+      fireRate: 0
+  - name: MegaBarracks
+    id: 4
+    levels:
+    - Description: 'The Barracks allow you to train troops after battle to attack
+        your enemies. Capacity: 8'
+      Currency: 1
+      Price: 200
+      TimeToBuild: 10
+      XpAward: 100
+      HP: 300
+      UpRatio: 2
+      IdOfBigIcon: MegaBarracks
+      IdOfSmallIcon: info
+      IdOfIconOnBuyButton: gold
+      IdOfBlackBigIcon: megabarracks_black_and_white
+      MaxCountOfThisItem: 100
+      name: MegaBarracks
+      id: 4
+      level: 1
+      asset: {fileID: 154402, guid: 3aae143ca41c841418d1f9aabbfcb279, type: 3}
+      structureType: Barracks
+      prodType: 3
+      prodPerHour: 100
+      storeType: 1
+      storeResource: 3
+      storeCap: 25
+      damagePoints: 0
+      fireRate: 0
